@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'blog',
     'accounts',
     'django_forms_bootstrap', #put boostrap tags for us with bootstrap
+    'storages',
 ]
 
 MIDDLEWARE = [

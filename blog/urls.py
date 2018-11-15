@@ -7,5 +7,5 @@ urlpatterns=[
     path('unpublished', get_unpublished_posts, name='get_unpublished_posts'),
     path('<int:id>/edit/',  edit_post, name='edit_post'),
     path('write_post/',  write_post, name='write_post'),
-    path('<int:id>/publish/', publish_post, name='edit_post'),
+    path('<int:id>/publish/', publish_post, name='publish_post'),
     ]
